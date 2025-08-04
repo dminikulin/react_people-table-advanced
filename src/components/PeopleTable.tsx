@@ -80,7 +80,7 @@ export const PeopleTable: React.FC<TableProps> = ({ people }) => {
               Born
               <SearchLink params={getNextSortParams('born')}>
                 <span className="icon">
-                  {currentSort === 'sex' ? (
+                  {currentSort === 'born' ? (
                     currentOrder === 'desc' ? (
                       <i className="fas fa-sort-down" />
                     ) : (
@@ -99,7 +99,7 @@ export const PeopleTable: React.FC<TableProps> = ({ people }) => {
               Died
               <SearchLink params={getNextSortParams('died')}>
                 <span className="icon">
-                  {currentSort === 'sex' ? (
+                  {currentSort === 'died' ? (
                     currentOrder === 'desc' ? (
                       <i className="fas fa-sort-down" />
                     ) : (

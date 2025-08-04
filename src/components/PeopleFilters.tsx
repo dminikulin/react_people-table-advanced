@@ -101,7 +101,7 @@ export const PeopleFilters: React.FC = () => {
           params={{
             query: null,
             centuries: null,
-            gender: null,
+            sex: null,
           }}
         >
           Reset all filters
